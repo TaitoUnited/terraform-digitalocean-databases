@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-variable "private_network_uuid" {
+variable "private_network_id" {
   type = string
 }
 

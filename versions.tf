@@ -18,7 +18,7 @@ terraform {
   experiments = [module_variable_optional_attrs]
 
   required_providers {
-    azurerm = {
+    digitalocean = {
       source  = "digitalocean/digitalocean"
       version = "=2.6.0"
     }
